@@ -1,0 +1,30 @@
+!!!
+html
+    head
+        style(type='text/css')
+            body {
+                background: #111}
+            button {
+                margin: 10px 20px;
+                display: block;
+                padding: 20px;
+                background: #333;
+                color: #fff;
+                font: 24px Arial;
+                border: none;
+                cursor: pointer}
+            button:hover {
+                background: #666}
+        title Rate Nate
+    body
+        //- Rotate Me
+        button(value='180', type='button') Double Rainbow!
+        button(value='135', type='button') Sweet
+        button(value='90', type='button') Meh
+        button(value='45', type='button') Starting to Bore Me
+        button(value='0', type='button') Srsly Dude?
+        script(type='text/javascript', src='https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js')
+        script(type='text/javascript')
+            $('button').click(function() {
+                $.get('/' + (parseInt($(this).val()) || 0));
+            });
