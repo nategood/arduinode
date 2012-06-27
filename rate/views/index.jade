@@ -13,16 +13,24 @@ html
                 font: 24px Arial;
                 border: none;
                 cursor: pointer}
+                button span {
+                    font-size: 10px;
+                    display: block}
             button:hover {
                 background: #666}
         title Rate Nate
     body
         //- Rotate Me
         button(value='180', type='button') Double Rainbow!
+            span 5
         button(value='135', type='button') Sweet
+            span 4
         button(value='90', type='button') Meh
+            span 3
         button(value='45', type='button') Starting to Bore Me
+            span 2
         button(value='0', type='button') Srsly Dude?
+            span 1
         script(type='text/javascript', src='https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js')
         script(type='text/javascript')
             $('button').click(function() {

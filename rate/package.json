@@ -1,10 +1,11 @@
 {
-  "name": "arduinode",
+  "name": "rate",
   "version": "0.0.1",
   "dependencies": {
     "firmata":      "*",
     "redis":        "*",
     "underscore":   "*",
-    "jade":         "*"
+    "jade":         "*",
+    "express":      "*"
   }
 }
