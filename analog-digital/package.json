@@ -1,0 +1,7 @@
+{
+  "name": "analog-digital",
+  "version": "0.0.1",
+  "dependencies": {
+    "firmata":      "0.2.*"
+  }
+}

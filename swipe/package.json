@@ -1,0 +1,7 @@
+{
+  "name": "swipe-detect",
+  "version": "0.0.1",
+  "dependencies": {
+    "firmata":      "0.2.*"
+  }
+}

@@ -11,9 +11,9 @@ client.on('error', function(err) {
 console.log('Initializing...');
 
 // var dev = '/dev/cu.usbserial-A6008jCB',
-var dev     = '/dev/tty.usbmodem641',
+var dev     = '/dev/tty.usbmodemfd111',
     pin     = 3,
-    ttl     = 300, // five minutes
+    ttl     = 60, // five minutes
     votes   = [{expires:99999999999, degrees: 90}];
 
 // Connect to the Arduino Running Firmata 2.2

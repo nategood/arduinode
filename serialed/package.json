@@ -2,7 +2,7 @@
   "name": "serialed",
   "version": "0.0.1",
   "dependencies": {
-    "firmata":      "*",
-    "redis":        "*",
+    "firmata":      "0.2.*",
+    "redis":        "0.7.*"
   }
 }
